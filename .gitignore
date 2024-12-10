@@ -62,9 +62,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Secrets
-secrets.txt
-
 # MySQL
 mysql/
 *.sock

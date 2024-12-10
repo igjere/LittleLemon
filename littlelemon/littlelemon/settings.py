@@ -76,6 +76,9 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
+
+""" NOTE: I used Linux to run the project. I had to change the database settings to match my Linux setup. I will be commenting out the database settings for now, and using the Windows setup for now. """
+""" 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -87,6 +90,18 @@ DATABASES = {
             'unix_socket': '/home/jerry/Documents/littlelemon/LittleLemon/mysql/mysql.sock',
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
+    }
+} 
+"""
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'LittleLemon',
+        'HOST' : '127.0.0.1',
+        'PORT' : '3306',
+        'USER' : 'localhost',
+        'PASSWORD' : '',
     }
 }
 
