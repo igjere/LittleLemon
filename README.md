@@ -1,6 +1,3 @@
 # LittleLemon
 
-To start the project, run:
-`nix develop -f shell.nix`
-
-`source bin/activate`
+see README.txt for more information
