@@ -61,3 +61,11 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+
+# Secrets
+secrets.txt
+
+# MySQL
+mysql/
+*.sock
+*.pid
